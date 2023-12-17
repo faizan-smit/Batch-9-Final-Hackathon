@@ -1,0 +1,63 @@
+.usermaindiv{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.theuserimage{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.thehead{
+
+    display: flex;
+    justify-content: space-between;
+    /* width: 100vw; */
+    margin-top: 20px;
+
+}
+
+body{
+
+    background-color: white;
+
+}
+
+.thealldata{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.usercheckin{
+
+    color: white;
+    background-color: limegreen;
+    width: 80vw;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    margin: 5px;
+
+
+}
+
+.usercheckout{
+
+    color: white;
+    background-color: black;
+    width: 80vw;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    margin: 5px;
+
+}

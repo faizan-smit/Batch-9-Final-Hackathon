@@ -1,0 +1,31 @@
+/* modal-form-edit.css */
+
+.modal-overlay-new {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.modal-content-new {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 60%; /* Adjust the width as needed */
+    max-width: 400px; /* Set a maximum width if desired */
+    margin: auto; /* Center the modal horizontally */
+}
+
+.close-new {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
